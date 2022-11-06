@@ -13,6 +13,7 @@
   --fourth-color: #757575;
   --background-color-second: rgba(47, 48, 58, 1);
   --icons-clients-color: #afb1b8;
+  --transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 * {
   box-sizing: border-box;
@@ -67,6 +68,7 @@ body {
 .nav__link:focus,
 .nav__link:active {
   color: var(--primary-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact {
@@ -93,6 +95,7 @@ body {
 .contact__date:active {
   color: var(--primary-color);
   fill: var(--primary-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------LOGO------------- */
@@ -156,6 +159,7 @@ body {
 .footer__contact:active,
 .footer__contact:focus {
   color: var(--primary-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__title--social {
   margin: 0px;
@@ -179,6 +183,7 @@ body {
 .footer__social-icon:hover,
 .footer__social-icon:focus {
   background-color: var(--primary-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------SLIDER------------- */
@@ -288,6 +293,19 @@ body {
   gap: 30px;
   padding: 0px;
 }
+.responsibilities__label {
+  text-transform: uppercase;
+  color: var(--third-color);
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: 0px;
+  position: relative;
+  top: -90px;
+}
 
 /* -------------PERSONEL------------- */
 .personel {
@@ -346,6 +364,7 @@ body {
 .personel__social-icon:focus {
   background-color: var(--primary-color);
   fill: var(--third-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------CLIENTS------------- */
@@ -380,6 +399,7 @@ body {
   color: red;
   border-color: var(--primary-color);
   fill: var(--primary-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------FILTERS------------- */
