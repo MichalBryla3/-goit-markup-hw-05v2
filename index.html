@@ -23,7 +23,9 @@
           >
           <nav class="nav">
             <ul class="nav__group">
-              <li><a class="nav__link nav__link--underline" href="#">Agencja</a></li>
+              <li>
+                <a class="nav__link nav__link--underline" href="#">Agencja</a>
+              </li>
               <li><a class="nav__link" href="portfolio.html">Portfolio</a></li>
               <li><a class="nav__link" href="#">Kontakt</a></li>
             </ul>
@@ -65,7 +67,9 @@
           <h1 class="slider__title">
             EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU
           </h1>
-          <button class="slider__btn" type="button">Zamów usługe</button>
+          <button class="slider__btn" type="button" data-modal-open>
+            Zamów usługe
+          </button>
         </div>
       </section>
 
@@ -542,5 +546,24 @@
         </div>
       </div>
     </footer>
+
+    <!---------------MODAL--------------->
+    <section class="form__backdrop is-hidden" data-modal>
+      <div class="form__container">
+        <div class="modal">
+          <button class="modal_btn" type="button" data-modal-close>
+            <svg id="icon-close">
+              <use
+                xlink:href="./images/icons.svg#icon-close"
+                width="11px"
+                height="11px"
+              ></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
