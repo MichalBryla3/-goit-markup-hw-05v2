@@ -41,7 +41,6 @@ body {
   width: 1200px;
   display: flex;
   align-items: center;
-  margin: 0px 215px;
 }
 
 .header__container--left {
@@ -110,6 +109,7 @@ body {
 
 /* -------------LOGO------------- */
 .logo {
+  font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
@@ -500,7 +500,6 @@ body {
 }
 .cards__container {
   width: 1200px;
-  margin: 0px 215px;
   padding-bottom: 94px;
 }
 .cards__list {
