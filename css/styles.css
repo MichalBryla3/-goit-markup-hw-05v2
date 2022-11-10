@@ -51,7 +51,10 @@ body {
 .header__container--right {
   margin: 0 0 auto 0;
 }
-
+.nav {
+  display: flex;
+  align-items: center;
+}
 .nav__group {
   display: flex;
   padding-left: 93px;
@@ -76,7 +79,7 @@ body {
   width: 58px;
   height: 4px;
   background-color: var(--primary-color);
-  margin-top: 35px;
+  margin-top: 28px;
   margin-left: 18px;
 }
 
